@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+ 
+.nav ul li {
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+ 
+.nav a {
+    text-decoration: none;
+}
+ 
+.nav .li_space {
+    width: 1px;
+    background: green;
+    height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+ 
+/* 标题字体 */
+.tit h3 {
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+ 
+/* 员工信息列表样式 */
+.info ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ 
+/* 消息标题样式 */
+.list p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ 
+.list a {
+    text-decoration: none;
+}
+ 
+/*消息列表页消息标题样式*/
+.list_tit {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ 
+.list_tit a {
+    text-decoration: none;
+}
+ 
+/* 消息列表页 下划线样式 */
+.content_messageList hr {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #185598;
+}
+ 
+/* 消息列表页 发布时间样式 */
+.list_id_time {
+    text-align: right;
+    color: #CCCCCC;
+    font-size: 14px;
+}
+ 
+/* 消息发布时间样式 */
+.list span {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+ 
+/* 显示消息下划线 */
+.content hr {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #185598;
+}
+ 
+/* 发布新消息页表单样式 */
+.newmessage {
+    height: 100%;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+ 
+.newmessage .newmessage_submit {
+    float: right;
+}
+ 
+.login {
+    height: 100%;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+ 
+/* 版权信息样式 */
+.footer ul li {
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+}

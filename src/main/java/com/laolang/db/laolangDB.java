@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ResourceBundle;
+//import java.util.ResourceBundle;
  
 /**
  * 数据库连接和关闭工具类
@@ -37,7 +37,7 @@ public class laolangDB {
 //        USERPASSWORD = rb.getString("jdbc.userpassword");
 //        DRIVER = rb.getString("jdbc.driver");
         
-        URL = "jdbc:mysql://localhost:3306/jc_1?useUnicode=true&amp;characterEncoding=UTF-8";
+        URL = "jdbc:mysql://localhost:3306/jc_one?useUnicode=true&characterEncoding=UTF-8";
         USERNAME = "root";
         USERPASSWORD = "root";
         DRIVER = "com.mysql.jdbc.Driver";
