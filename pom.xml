@@ -52,11 +52,17 @@
 	<build>
 		<finalName>one</finalName>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-			</plugin>
+		  <plugin>
+		    <groupId>org.apache.tomcat.maven</groupId>
+		    <artifactId>tomcat7-maven-plugin</artifactId>    <!--这里也可以使用tomcat7-maven-plugin-->
+		    <version>2.2</version>   <!--最新版本-->
+		    <configuration>
+		      <url>http://localhost:8080/manager/text</url>    <!--配置远程tomcat的路劲-->
+		      <username>admin</username>
+		      <password>admin</password>
+		      <uriEncoding>UTF-8</uriEncoding>   <!--tomcat的url编码  达到和修改server.xml文件一样的功能-->
+		    </configuration>
+		</plugin>
 		</plugins>
 	</build>
 </project>
